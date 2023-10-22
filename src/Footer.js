@@ -6,7 +6,7 @@ function Footer() {
                     <img id="footer-image" src="restaurant.jpg" />
                 </div>
                 <div>
-                    <h2>Doormat Navigation</h2>
+                    <h2>Doormat</h2>
                     <ul>
                         <li>Home</li>
                         <li>About</li>
@@ -25,7 +25,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <h2>Social Media Links</h2>
+                    <h2>Social</h2>
                     <ul>
                         <li>Facebook</li>
                         <li>Instagram</li>

@@ -1,9 +1,10 @@
 body {
   background-color: white;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-size: large;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -15,6 +16,21 @@ body {
   flex-direction: column;
   gap: 0rem;
   grid-template-rows: auto;
+}
+
+button {
+  background-color: gold;
+  color: black;
+  font-weight: normal;
+  font-size: 1.1rem;
+  border: 0px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(255, 230, 85);
 }
 
 code {
@@ -29,6 +45,15 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    flex-direction: column;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
 }
 
 .nav-menu {
@@ -72,6 +97,45 @@ section {
   padding: 2rem;
 }
 
+#hero .content {
+  max-width: 50%;
+}
+
+.title {
+  font-family: 'Markazi Text', serif;
+  font-size: 6rem;
+  font-weight: normal;
+}
+
+.main-title {
+  font-family: 'Markazi Text', serif;
+  font-size: 6rem;
+  font-weight: normal;
+  color: gold;
+  padding: 0;
+}
+
+.main-subtitle {
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-weight: normal;
+  color: white;
+}
+
+#hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#hero-image-container img {
+  margin-top: 0rem;
+  height: 42rem;
+  border-radius: 5px;
+  clip-path: circle(50% at 50% 50%);
+}
+
 .content {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -85,12 +149,76 @@ section {
 
 #specials-header {
   display: flex;
+  justify-content: space-between;
+}
+
+.special-image {
+  height: 200px;
+  clip-path: view-box;
+}
+
+.special-image img {
+  height: 200px;
+  clip-path: content-box;
+}
+
+#specials .specials {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #specials .specials {
+    flex-direction: column;
+  }
+}
+
+.special {
+  width: 10rem;
+  border-radius: 16px;
+  border: solid 1px black;
 }
 
 #testimonials {
   background-color: darkslategrey;
   color: white;
   padding: 2rem;
+  text-align: center;
+}
+
+#testimonials .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.testimonial {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin: 1rem;
+  max-width: 15rem;
+  min-width: 15rem;
+  border-radius: 2rem;
+}
+
+.testimonial-inner {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+}
+
+.testimonial-inner img {
+  height: 50px;
+}
+
+.testimonial-inner h1 {
+  font-family: Karla;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 #about {
@@ -99,14 +227,41 @@ section {
   padding: 2rem;
 }
 
+#about .content {
+  display: flex;
+  align-items: center;
+}
+
+#about-chef-images {
+  padding: 2rem;
+}
+
+#about-chef-images img {
+  width: 24rem;
+}
+
 footer {
-  background-color: darkslategrey;
+  background-color: #282c34;
   color: white;
   padding: 2rem;
 }
 
 footer .content {
   display: flex;
+}
+
+footer .content h2 {
+  color: gold;
+}
+
+footer .content li {
+  list-style-type: none;
+}
+
+footer .content ul {
+  padding-left: 0;
+  padding-right: 5rem;
+
 }
 
 #footer-image {
