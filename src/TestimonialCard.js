@@ -1,3 +1,5 @@
+import './TestimonialCard.css'
+
 function TestimonialCard(props) {
     return (
         <div className="testimonial">

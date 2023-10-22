@@ -18,7 +18,7 @@ body {
   grid-template-rows: auto;
 }
 
-button {
+button, #hero .content a {
   background-color: gold;
   color: black;
   font-weight: normal;
@@ -27,9 +27,10 @@ button {
   padding: 1rem;
   border-radius: 1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
-button:hover {
+button:hover, #hero .content a:hover {
   background-color: rgb(255, 230, 85);
 }
 
@@ -90,83 +91,6 @@ section {
   padding-left: 5em;
 }
 
-#hero {
-  display: flex;
-  background-color: darkslategrey;
-  color: white;
-  padding: 2rem;
-}
-
-#hero .content {
-  max-width: 50%;
-}
-
-.title {
-  font-family: 'Markazi Text', serif;
-  font-size: 6rem;
-  font-weight: normal;
-}
-
-.main-title {
-  font-family: 'Markazi Text', serif;
-  font-size: 6rem;
-  font-weight: normal;
-  color: gold;
-  padding: 0;
-}
-
-.main-subtitle {
-  font-family: 'Markazi Text', serif;
-  font-size: 4rem;
-  font-weight: normal;
-  color: white;
-}
-
-#hero-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-#hero-image-container img {
-  margin-top: 0rem;
-  height: 42rem;
-  border-radius: 5px;
-  clip-path: circle(50% at 50% 50%);
-}
-
-.content {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-#specials {
-  background-color: white;
-  color: black;
-  padding: 2rem;
-}
-
-#specials-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.special-image {
-  height: 200px;
-  clip-path: view-box;
-}
-
-.special-image img {
-  height: 200px;
-  clip-path: content-box;
-}
-
-#specials .specials {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
-}
 
 @media only screen and (max-width: 600px) {
   #specials .specials {
@@ -180,91 +104,3 @@ section {
   border: solid 1px black;
 }
 
-#testimonials {
-  background-color: darkslategrey;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-
-#testimonials .content {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
-}
-
-.testimonial {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  margin: 1rem;
-  max-width: 15rem;
-  min-width: 15rem;
-  border-radius: 2rem;
-}
-
-.testimonial-inner {
-  display: flex;
-  align-items: center;
-  text-align: left;
-  padding: 1rem;
-}
-
-.testimonial-inner img {
-  height: 50px;
-}
-
-.testimonial-inner h1 {
-  font-family: Karla;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 1rem;
-}
-
-#about {
-  background-color: white;
-  color: black;
-  padding: 2rem;
-}
-
-#about .content {
-  display: flex;
-  align-items: center;
-}
-
-#about-chef-images {
-  padding: 2rem;
-}
-
-#about-chef-images img {
-  width: 24rem;
-}
-
-footer {
-  background-color: #282c34;
-  color: white;
-  padding: 2rem;
-}
-
-footer .content {
-  display: flex;
-}
-
-footer .content h2 {
-  color: gold;
-}
-
-footer .content li {
-  list-style-type: none;
-}
-
-footer .content ul {
-  padding-left: 0;
-  padding-right: 5rem;
-
-}
-
-#footer-image {
-  height: 200px;
-  clip-path: circle(100px at 100px 100px);
-}

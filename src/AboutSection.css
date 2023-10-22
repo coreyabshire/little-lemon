@@ -1,0 +1,18 @@
+#about {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+#about .content {
+    display: flex;
+    align-items: center;
+}
+
+#about-chef-images {
+    padding: 2rem;
+}
+
+#about-chef-images img {
+    width: 24rem;
+}

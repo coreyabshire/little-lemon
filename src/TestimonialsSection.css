@@ -1,0 +1,13 @@
+#testimonials {
+    background-color: darkslategrey;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+#testimonials .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+

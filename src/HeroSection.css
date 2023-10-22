@@ -1,0 +1,51 @@
+#hero {
+    display: flex;
+    background-color: darkslategrey;
+    color: white;
+    padding: 2rem;
+  }
+  
+  #hero .content {
+    max-width: 50%;
+  }
+  
+  .title {
+    font-family: 'Markazi Text', serif;
+    font-size: 6rem;
+    font-weight: normal;
+  }
+  
+  .main-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 6rem;
+    font-weight: normal;
+    color: gold;
+    padding: 0;
+  }
+  
+  .main-subtitle {
+    font-family: 'Markazi Text', serif;
+    font-size: 4rem;
+    font-weight: normal;
+    color: white;
+  }
+  
+  #hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  #hero-image-container img {
+    margin-top: 0rem;
+    height: 42rem;
+    border-radius: 5px;
+    clip-path: circle(50% at 50% 50%);
+  }
+  
+  .content {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  

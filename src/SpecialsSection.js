@@ -1,3 +1,4 @@
+import './SpecialsSection.css';
 import Special from "./SpecialCard";
 
 function SpecialsSection(props) {

@@ -1,3 +1,5 @@
+import './AboutSection.css';
+
 function AboutSection(props) {
     return (
         <section id="about">

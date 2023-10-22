@@ -1,0 +1,28 @@
+footer {
+    background-color: #282c34;
+    color: white;
+    padding: 2rem;
+}
+
+footer .content {
+    display: flex;
+}
+
+footer .content h2 {
+    color: gold;
+}
+
+footer .content li {
+    list-style-type: none;
+}
+
+footer .content ul {
+    padding-left: 0;
+    padding-right: 5rem;
+
+}
+
+#footer-image {
+    height: 200px;
+    clip-path: circle(100px at 100px 100px);
+}

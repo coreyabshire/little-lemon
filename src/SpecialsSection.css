@@ -1,0 +1,26 @@
+#specials {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+#specials-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-image {
+    height: 200px;
+    clip-path: view-box;
+}
+
+.special-image img {
+    height: 200px;
+    clip-path: content-box;
+}
+
+#specials .specials {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}

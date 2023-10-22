@@ -1,4 +1,5 @@
 import TestimonialCard from "./TestimonialCard";
+import './TestimonialsSection.css';
 
 function TestimonialsSection(props) {
     let testimonials = [
