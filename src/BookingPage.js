@@ -1,13 +1,16 @@
+import './BookingPage.css';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import BookingForm from './BookingForm';
 
 function BookingPage() {
     return (
         <>
             <Header />
-            <div>
-                <h1>Booking Page</h1>
+            <div className="booking-page-content">
+                <h1>Book a Reservation</h1>
+                <BookingForm />
             </div>
         </>
     );
